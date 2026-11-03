@@ -1,0 +1,39 @@
+h1 {
+  font-family: "Calistoga", sans-serif;
+  min-width: 35px;
+}
+
+#search-section {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5) ), url("books.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  min-height: 50vh;
+  
+}
+
+#search-section p {
+  font-size: 20px;
+}
+
+#search-section p, #word-search-form {
+  max-width: 500px;
+}
+
+#results-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 15%;
+}
+
+footer {
+  background-color: rgb(35, 27, 28);
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  padding: 5px 0;
+}
+
